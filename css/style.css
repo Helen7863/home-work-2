@@ -1,100 +1,137 @@
-:root{
-    --primary-text-color: #212121;
-    --title-text-color: #757575;
-    --accent-color: #FFFFFF;
-    --hover-color: #2196F3;
-    --background-color: #F5F4FA;
-    
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #ffffff;
+  --hover-color: #2196f3;
+  --background-color: #f5f4fa;
 }
 
-
-
-body{
-    color: var(--primary-text-color);
-    font-family: Roboto, sans-serif;
-    letter-spacing: 0.03em;
+body {
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
-.list{
-    list-style: none;
+.list {
+  list-style: none;
 }
 
 /* Heder */
-.logo{
-    color: var(--hover-color);
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
+.logo {
+  color: var(--hover-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 /* Site navigation */
-.site-nav a{
-    color: var(--primary-text-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+.site-nav a {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
-.site-nav a:hover , 
-.site-nav a:focus{
-    color: var(--hover-color);
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--hover-color);
 }
-.site-nav .current{
-    color: var(--hover-color);
+.site-nav .current {
+  color: var(--hover-color);
 }
 
-.auto-nav a{
-    color: var(--title-text-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+.auto-nav a {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .auto-nav a:hover,
-.auto-nav a:focus{
-    color: var(--hover-color);
+.auto-nav a:focus {
+  color: var(--hover-color);
 }
 
 /*  Hero section */
 
-.hero-title{
-    color: var(--accent-color);
+.hero-title {
+  color: var(--accent-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  /* temporarily */
+  background: var(--title-text-color);
+}
+.button {
+  color: var(--accent-color);
+  background-color: var(--hover-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
 }
 
 /* Section 2 */
 
-.work-list .title{
-    color: var(--primary-text-color) ;
+.work-list .title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
-.work-list .paragraph{
-    color: var(--title-text-color);
+.work-list .paragraph {
+  color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 /* Section 3 */
 
-.section-title{
-    color: var(--primary-text-color);
+.section-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 0.85;
+  text-align: center;
 }
 
 /* Section 4 */
 
 .team-list .title {
-    color: var(--primary-text-color);
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
 }
-.team-list .paragraph{
-    color: var(--title-text-color);
+.team-list .paragraph {
+  color: var(--title-text-color);
+  font-size: 16px;
+  line-height: 1.9;
 }
 
-
+/* Footer */
+.footer-nav a {
+  font-size: 14px;
+  line-height: 1.7;
+}
+.footer-nav .adress {
+  color: var(--accent-color);
+  background: var(--title-text-color);
+}
+.footer-nav .contacts {
+  color: var(--title-text-color);
+}
 
 /* Portfolio */
 
-.button-secondary a{
-    color:var(--primary-text-color);
-    background:var(--background-color);
+.button-secondary {
+  color: var(--primary-text-color);
+  background: var(--background-color);
 }
 .button-secondary :hover,
-.button-secondary :focus{
-    background: var(--hover-color);
+.button-secondary :focus {
+  background: var(--hover-color);
 }
