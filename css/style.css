@@ -115,10 +115,15 @@ body {
 }
 .footer-nav .adress {
   color: var(--accent-color);
+  /* temporarily */
   background: var(--title-text-color);
 }
 .footer-nav .contacts {
   color: var(--title-text-color);
+}
+.footer-nav a:hover,
+.footer-nav a:focus {
+  color: var(--hover-color);
 }
 
 /* Portfolio */
@@ -129,4 +134,15 @@ body {
 .button-secondary :hover,
 .button-secondary :focus {
   background: var(--hover-color);
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.rubric {
+  color: var(--title-text-color);
+  font-size: 16px;
+  line-height: 1.87;
 }
