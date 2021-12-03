@@ -27,7 +27,6 @@ body {
 
 /* Site navigation */
 .site-nav a {
-  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -68,7 +67,7 @@ body {
 .button {
   color: var(--accent-color);
   background-color: var(--hover-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
 }
@@ -76,7 +75,6 @@ body {
 /* Section 2 */
 
 .work-list .title {
-  color: var(--primary-text-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -91,7 +89,6 @@ body {
 /* Section 3 */
 
 .section-title {
-  color: var(--primary-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 0.85;
@@ -101,7 +98,6 @@ body {
 /* Section 4 */
 
 .team-list .title {
-  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
@@ -128,7 +124,6 @@ body {
 /* Portfolio */
 
 .button-secondary {
-  color: var(--primary-text-color);
   background: var(--background-color);
 }
 .button-secondary :hover,
