@@ -4,6 +4,8 @@
   --accent-color: #ffffff;
   --hover-color: #2196f3;
   --background-color: #f5f4fa;
+  --background: #2f303a;
+  --contacs-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -15,6 +17,9 @@ body {
 .list {
   list-style: none;
 }
+.list a {
+  text-decoration: none;
+}
 
 /* Heder */
 .logo {
@@ -23,10 +28,28 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
+}
+.black-logo {
+  color: var(--primary-text-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.logo-footer {
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
 }
 
 /* Site navigation */
 .site-nav a {
+  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -70,6 +93,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
+  cursor: pointer;
 }
 
 /* Section 2 */
@@ -109,6 +133,9 @@ body {
 }
 
 /* Footer */
+.footer {
+  background: var(--background);
+}
 .footer-nav a {
   font-size: 14px;
   line-height: 1.7;
@@ -119,7 +146,7 @@ body {
   background: var(--title-text-color);
 }
 .footer-nav .contacts {
-  color: var(--title-text-color);
+  color: var(--contacs-color);
 }
 .footer-nav a:hover,
 .footer-nav a:focus {
@@ -131,9 +158,14 @@ body {
 .button-secondary {
   background: var(--background-color);
 }
-.button-secondary :hover,
-.button-secondary :focus {
+.button-secondary .line:hover,
+.button-secondary .line:focus {
   background: var(--hover-color);
+}
+.line {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 .heading {
