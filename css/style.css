@@ -6,22 +6,55 @@
   --background-color: #f5f4fa;
   --background: #2f303a;
   --contacs-color: rgba(255, 255, 255, 0.6);
+  --card-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
-
+/* Общие стили */
 body {
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
-
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
-.list a {
+a {
   text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid tomato;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /* Heder */
+.heder {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.heder-container {
+  display: flex;
+  align-items: center;
+}
 .logo {
   color: var(--hover-color);
   font-family: Raleway;
@@ -46,8 +79,17 @@ body {
   line-height: 1.19;
   text-decoration: none;
 }
-
 /* Site navigation */
+.nav {
+  display: flex;
+  align-items: center;
+}
+.site-nav {
+  display: flex;
+}
+.site-nav-item {
+  margin-left: 50px;
+}
 .site-nav a {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -62,7 +104,13 @@ body {
 .site-nav .current {
   color: var(--hover-color);
 }
-
+.auto-nav {
+  display: flex;
+  margin-left: auto;
+}
+.auto-list-item {
+  margin-left: 50px;
+}
 .auto-nav a {
   color: var(--title-text-color);
   font-weight: 500;
@@ -77,6 +125,13 @@ body {
 
 /*  Hero section */
 
+.hero {
+  background: var(--background);
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .hero-title {
   color: var(--accent-color);
   font-weight: 900;
@@ -84,10 +139,11 @@ body {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
-  /* temporarily */
-  background: var(--title-text-color);
 }
 .button {
+  border-radius: 4px;
+  padding: 10px 32px;
+
   color: var(--accent-color);
   background-color: var(--hover-color);
   font-weight: 700;
@@ -97,7 +153,10 @@ body {
 }
 
 /* Section 2 */
-
+.work-list {
+  display: flex;
+  align-items: center;
+}
 .work-list .title {
   font-weight: 700;
   font-size: 14px;
@@ -109,17 +168,40 @@ body {
   font-size: 14px;
   line-height: 1.7;
 }
+.work-item {
+  margin-left: 30px;
+}
+.title {
+  margin-bottom: 10px;
+}
 
 /* Section 3 */
 
+.work {
+  display: flex;
+  align-items: center;
+}
 .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 0.85;
   text-align: center;
+  padding-bottom: 50px;
+}
+
+.exmp-item {
+  margin-left: 30px;
+}
+.exmp-item:first-child {
+  margin-left: 0px;
 }
 
 /* Section 4 */
+
+.team-list {
+  display: flex;
+  align-items: center;
+}
 
 .team-list .title {
   font-weight: 500;
@@ -132,6 +214,10 @@ body {
   line-height: 1.9;
 }
 
+.team-item {
+  margin-right: 30px;
+}
+
 /* Footer */
 .footer {
   background: var(--background);
@@ -142,8 +228,6 @@ body {
 }
 .footer-nav .adress {
   color: var(--accent-color);
-  /* temporarily */
-  background: var(--title-text-color);
 }
 .footer-nav .contacts {
   color: var(--contacs-color);
@@ -156,16 +240,45 @@ body {
 /* Portfolio */
 
 .button-secondary {
-  background: var(--background-color);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 56px;
 }
+
+.btn-item {
+  display: flex;
+  margin-right: 8px;
+}
+
 .button-secondary .line:hover,
 .button-secondary .line:focus {
+  color: var(--accent-color);
   background: var(--hover-color);
 }
+
 .line {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
+  border-radius: 4px;
+  padding: 6px 22px;
+}
+
+.job-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.job-item {
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  padding: 30px 30px;
+  width: calc(100% / 3 - 60px);
+}
+.card {
+  width: 370px;
+  box-shadow: var(--card-shadow);
 }
 
 .heading {
@@ -177,4 +290,14 @@ body {
   color: var(--title-text-color);
   font-size: 16px;
   line-height: 1.87;
+}
+.footer-pdn {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.logo-pdng {
+  padding-bottom: 20px;
+}
+.footer-nav-pdng {
+  padding-bottom: 9px;
 }

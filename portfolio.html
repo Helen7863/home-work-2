@@ -1,137 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
-    rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-
-    <!--  Webpage header  --> 
-    <header>
-
-        <!--  Navigating to other pages  -->
-        <nav>
-        <a href="/" class="logo">Web</a>
-        <a href="" class="black-logo">Studio</a>
-
-          <ul class=" site-nav  list">
-             <li><a href="./index.html">Студия</a></li>
-             <li><a href="" class="current">Портфолио</a></li>
-             <li><a href="">Контакты</a></li>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!--  Webpage header  -->
+    <header class="heder">
+      <!--  Navigating to other pages  -->
+      <div class="container heder-container">
+        <nav class="nav">
+          <a href="/" class="logo">
+            Web<span class="black-logo">Studio</span>
+          </a>
+          <ul class="site-nav list">
+            <li class="site-nav-item">
+              <a href="./index.html">Студия</a>
+            </li>
+            <li class="site-nav-item">
+              <a href="" class="current">Портфолио</a>
+            </li>
+            <li class="site-nav-item"><a href="">Контакты</a></li>
           </ul>
         </nav>
 
-
-          <ul class="auto-nav  list">
-             <li><a href="">info@devstudio.com</a></li>
-             <li><a href="">+38 096 111 11 11</a></li>
-          </ul>
-
-        
+        <ul class="auto-nav list">
+          <li class="auto-list-item"><a href="">info@devstudio.com</a></li>
+          <li class="auto-list-item"><a href="">+38 096 111 11 11</a></li>
+        </ul>
+      </div>
     </header>
 
     <main>
-        
-        <section>
+      <section class="section">
+        <div class="container">
+          <!--  Section  -->
 
-            <!--  Section  -->
-
-            <ul class="button-secondary list">
-            <li>
-                <button type="button" class="line">Все</button>
+          <ul class="button-secondary list">
+            <li class="btn-item">
+              <button type="button" class="line">Все</button>
             </li>
-            <li>
-                <button type="button" class="line">Веб-сайты</button>
-                </li>
-                <li>
-                    <button type="button" class="line">Приложения</button>
-                </li>
-                <li>
-                    <button type="button" class="line">Дизайн</button>
-                </li>
-                <li>
-                    <button type="button" class="line">Маркетинг</button>
-                </li>
-            </ul>
+            <li class="btn-item">
+              <button type="button" class="line">Веб-сайты</button>
+            </li>
+            <li class="btn-item">
+              <button type="button" class="line">Приложения</button>
+            </li>
+            <li class="btn-item">
+              <button type="button" class="line">Дизайн</button>
+            </li>
+            <li class="btn-item">
+              <button type="button" class="line">Маркетинг</button>
+            </li>
+          </ul>
 
-            <ul class="list">
-                <li>
-                    <img src="./imeges/portfolio1.jpg" alt="Технокряк" width="370">
-                    <h1 class="heading">Технокряк</h1>
-                    <p class="rubric">Веб-сайт</p>
-                </li>
-                <li>
-                    <img src="./imeges/portfolio2.jpg" alt="Постер" width="370">
-                    <h1 class="heading">Постер New Orlean vs Golden Star</h1>
-                    <p class="rubric">Дизайн</p>
-                </li>
-                <li>
-                    <img src="./imeges/portfolio3.jpg" alt="Ресторан" width="370">
-                    <h1 class="heading">Ресторан Seafood</h1>
-                    <p class="rubric">Приложение</p>
-                </li>
-                <li>
-                    <img src="./imeges/portfolio4.jpg" alt="Наушники" width="370">
-                    <h1 class="heading">Проект Prime</h1>
-                    <p class="rubric">Маркетинг</p>
-                </li>
-                <li>
-                    <img src="./imeges/portfolio5.jpg" alt="Коробки" width="370">
-                    <h1 class="heading">Проект Boxes</h1>
-                    <p class="rubric">Приложение</p>
-                </li>
-                <li>
-                    <img src="./imeges/portfolio6.jpg" alt="Монитор" width="370">
-                    <h1 class="heading">Inspiration has no Borders</h1>
-                    <p class="rubric">Веб-сайт</p>
-                </li>
-                <li>
-                    <img src="./imeges/portfolio7.jpg" alt="Книга" width="370">
-                    <h1 class="heading">Издание Limited Edition</h1>
-                    <p class="rubric">Дизайн</p>
-                </li>
-                <li>
-                    <img src="./imeges/portfolio8.jpg" alt="Этикетка" width="370">
-                    <h1 class="heading">Проект LAB</h1>
-                    <p class="rubric">Маркетинг</p>
-                </li>
-                <li>
-                    <img src="./imeges/portfolio9.jpg" alt="Ноут с руками" width="370">
-                    <h1 class="heading">Growing Business</h1>
-                    <p class="rubric">Приложение</p>
-                </li>
-            </ul>
-        </section>
+          <ul class="list job-list">
+            <li class="job-item">
+              <article class="card">
+                <div class="card-img">
+                  <img
+                    src="./imeges/portfolio1.jpg"
+                    alt="Технокряк"
+                    width="370"
+                  />
+                </div>
+                <div class="card-content">
+                  <h1 class="heading">Технокряк</h1>
+                  <p class="rubric">Веб-сайт</p>
+                </div>
+              </article>
+            </li>
+
+            <li class="job-item">
+              <article class="card">
+                <div class="card-img">
+                  <img src="./imeges/portfolio2.jpg" alt="Постер" width="370" />
+                </div>
+                <div class="card-content">
+                  <h1 class="heading">Постер New Orlean vs Golden Star</h1>
+                  <p class="rubric">Дизайн</p>
+                </div>
+              </article>
+            </li>
+
+            <li class="job-item">
+              <article class="card">
+                <div class="card-img">
+                  <img
+                    src="./imeges/portfolio3.jpg"
+                    alt="Ресторан"
+                    width="370"
+                  />
+                </div>
+                <div class="card-content">
+                  <h1 class="heading">Ресторан Seafood</h1>
+                  <p class="rubric">Приложение</p>
+                </div>
+              </article>
+            </li>
+
+            <li class="job-item">
+              <article class="card">
+                <div class="card-img">
+                  <img
+                    src="./imeges/portfolio4.jpg"
+                    alt="Наушники"
+                    width="370"
+                  />
+                </div>
+                <div class="card-content">
+                  <h1 class="heading">Проект Prime</h1>
+                  <p class="rubric">Маркетинг</p>
+                </div>
+              </article>
+            </li>
+            <li class="job-item">
+              <article class="card">
+                <div class="card-img">
+                  <img
+                    src="./imeges/portfolio5.jpg"
+                    alt="Коробки"
+                    width="370"
+                  />
+                </div>
+                <div class="card-content">
+                  <h1 class="heading">Проект Boxes</h1>
+                  <p class="rubric">Приложение</p>
+                </div>
+              </article>
+            </li>
+
+            <li class="job-item">
+              <article class="card">
+                <div class="card-img">
+                  <img
+                    src="./imeges/portfolio6.jpg"
+                    alt="Монитор"
+                    width="370"
+                  />
+                </div>
+                <div class="card-content">
+                  <h1 class="heading">Inspiration has no Borders</h1>
+                  <p class="rubric">Веб-сайт</p>
+                </div>
+              </article>
+            </li>
+
+            <li class="job-item">
+              <article class="card">
+                <div class="card-img">
+                  <img src="./imeges/portfolio7.jpg" alt="Книга" width="370" />
+                </div>
+                <div class="card-content">
+                  <h1 class="heading">Издание Limited Edition</h1>
+                  <p class="rubric">Дизайн</p>
+                </div>
+              </article>
+            </li>
+
+            <li class="job-item">
+              <article class="card">
+                <div class="card-img">
+                  <img
+                    src="./imeges/portfolio8.jpg"
+                    alt="Этикетка"
+                    width="370"
+                  />
+                </div>
+                <div class="card-content">
+                  <h1 class="heading">Проект LAB</h1>
+                  <p class="rubric">Маркетинг</p>
+                </div>
+              </article>
+            </li>
+
+            <li class="job-item">
+              <article class="card">
+                <div class="card-img">
+                  <img
+                    src="./imeges/portfolio9.jpg"
+                    alt="Ноут с руками"
+                    width="370"
+                  />
+                </div>
+                <div class="card-content">
+                  <h1 class="heading">Growing Business</h1>
+                  <p class="rubric">Приложение</p>
+                </div>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
-
 
     <!-- Footer  -->
     <footer class="footer">
-
-        <a href="/" class="logo">Web</a>
-        <a href="" class="logo-footer">Studio</a>
-
+      <div class="container footer-pdn">
+        <div class="logo-pdng">
+          <a href="/" class="logo"
+            >Web<span class="logo-footer">Studio</span></a
+          >
+        </div>
         <address>
-            <ul class="footer-nav list">
-                <li>
-                    <a href="" class="adress">г. Киев, пр-т Леси Украинки, 26</a>
-                </li>
-                <li>
-                    <a href="mailto:info@example.com" class="contacts">info@example.com</a>
-                </li>
-                <li>
-                    <a href="tel:+380991111111" class="contacts">+38 099 111 11 11</a>
-                </li>
-            </ul>
+          <ul class="footer-nav list">
+            <li class="footer-nav-pdng">
+              <a href="" class="adress">г. Киев, пр-т Леси Украинки, 26</a>
+            </li>
+            <li class="footer-nav-pdng">
+              <a href="mailto:info@example.com" class="contacts"
+                >info@example.com</a
+              >
+            </li>
+            <li class="footer-nav-pdng">
+              <a href="tel:+380991111111" class="contacts">+38 099 111 11 11</a>
+            </li>
+          </ul>
         </address>
-
-
+      </div>
     </footer>
-    
-</body>
+  </body>
 </html>
