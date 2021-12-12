@@ -180,6 +180,10 @@ p {
 
 /* Section 3 */
 
+.part {
+  padding-top: 0px;
+}
+
 .work {
   display: flex;
   align-items: center;
@@ -226,6 +230,7 @@ p {
 .team-list-content {
   padding-top: 30px;
   padding-bottom: 30px;
+  text-align: center;
 }
 
 /* Footer */
@@ -249,13 +254,24 @@ p {
   color: var(--hover-color);
 }
 
+.footer-nav-margin {
+  margin-bottom: 9px;
+}
+
 /* Portfolio */
+
+.heading {
+  display: none;
+}
+#heading {
+  display: block;
+}
 
 .button-secondary {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-bottom: 56px;
+  margin-bottom: 56px;
 }
 
 .btn-item {
@@ -312,7 +328,4 @@ p {
 
 .logo-pdng {
   padding-bottom: 20px;
-}
-.footer-nav-pdng {
-  padding-bottom: 9px;
 }
