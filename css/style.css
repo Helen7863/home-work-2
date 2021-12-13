@@ -133,15 +133,23 @@ p {
   padding-bottom: 200px;
 }
 
+.hero .section {
+  text-align: center;
+}
+
 .hero-title {
   color: var(--accent-color);
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  width: 696px;
   text-transform: uppercase;
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .button {
   border-radius: 4px;
@@ -159,6 +167,7 @@ p {
 .work-list {
   display: flex;
   align-items: center;
+  margin-left: -30px;
 }
 .work-list .title {
   font-weight: 700;
@@ -261,9 +270,6 @@ p {
 
 /* Portfolio */
 
-.heading {
-  display: none;
-}
 #heading {
   display: block;
 }
