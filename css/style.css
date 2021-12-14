@@ -444,6 +444,8 @@ p {
 .button-secondary .line:focus {
   color: var(--accent-color);
   background: var(--hover-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .line {
@@ -471,6 +473,12 @@ p {
 .card {
   width: 370px;
   box-shadow: var(--card-shadow);
+}
+
+.card:hover,
+.card:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .card-content {
   padding: 20px 24px;
