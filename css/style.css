@@ -186,6 +186,7 @@ p {
   font-size: 16px;
   line-height: 1.9;
   cursor: pointer;
+  border: none;
 }
 
 /* Section 2 */
@@ -242,7 +243,7 @@ p {
   font-size: 36px;
   line-height: 0.85;
   text-align: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .exmp-item {
@@ -263,17 +264,20 @@ p {
 .team-list {
   display: flex;
   align-items: center;
+  margin-left: -30px;
 }
 
+.team-kart {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
 .team-item {
   width: 270px;
-  height: 428px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   margin-left: 30px;
   background-color: var(--accent-color);
-  margin-right: 30px;
 }
 
 .team-img {
@@ -443,6 +447,8 @@ p {
 .btn-item {
   display: flex;
   margin-right: 8px;
+  background-color: var(--background-color);
+  border-radius: 4px;
 }
 
 .button-secondary .line:hover,
@@ -460,6 +466,7 @@ p {
   letter-spacing: 0.03em;
   border-radius: 4px;
   padding: 6px 22px;
+  border: none;
 }
 
 .job-list {
