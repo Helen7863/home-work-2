@@ -26,12 +26,14 @@
           </a>
           <ul class="site-nav list">
             <li class="site-nav-item">
-              <a href="" class="current">Студия</a>
+              <a href="" class="site-nav-link current active">Студия</a>
             </li>
             <li class="site-nav-item">
-              <a href="./portfolio.html">Портфолио</a>
+              <a href="./portfolio.html" class="site-nav-link">Портфолио</a>
             </li>
-            <li class="site-nav-item"><a href="">Контакты</a></li>
+            <li class="site-nav-item">
+              <a href="" class="site-nav-link">Контакты</a>
+            </li>
           </ul>
         </nav>
 
@@ -62,7 +64,9 @@
       <section class="hero section">
         <div class="container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button type="button" class="button">Заказать услугу</button>
+          <button type="button" class="button" data-modal-open>
+            Заказать услугу
+          </button>
         </div>
       </section>
 
@@ -129,6 +133,9 @@
 
           <ul class="list work">
             <li class="exmp-item">
+              <div class="work-text">
+                <p>Десктопные приложения</p>
+              </div>
               <img
                 src="./imeges/sect2-1.jpg"
                 alt="Чем занимаемся (робочий процес - код)"
@@ -136,6 +143,9 @@
               />
             </li>
             <li class="exmp-item">
+              <div class="work-text">
+                <p>Мобильные приложения</p>
+              </div>
               <img
                 src="./imeges/sect2-2.jpg"
                 alt="Чем занимаемся (робочий процес - дизайн)"
@@ -143,6 +153,9 @@
               />
             </li>
             <li class="exmp-item">
+              <div class="work-text">
+                <p>Дизайнерские решения</p>
+              </div>
               <img
                 src="./imeges/sect2-3.jpg"
                 alt="Чем занимаемся (планшет с цветами)"
@@ -159,8 +172,6 @@
           <h2 class="section-title">Наша команда</h2>
 
           <ul class="team-list list">
-
-        
             <li class="team-item">
               <img
                 src="./imeges/sect3-1.jpg"
@@ -168,89 +179,85 @@
                 width="270"
                 class="team-img"
               />
-              <div class=" team-kart">
-              <h3 class="title team-list-content">Игорь Демьяненко</h3>
-              <p class="paragraph team-list-content">Product Designer</p>
-              <ul class="social-list list">
-                <li class="social-item">
-                  <a href="" class="social-link">
-                    <svg class="social-icon" width="20" height="20">
-                      <use href="./imeges/icons.svg#icon-instagram-2-1"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-item">
-                  <a href="" class="social-link">
-                    <svg class="social-icon" width="20" height="20">
-                      <use href="./imeges/icons.svg#icon-twitter-1-1"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-item">
-                  <a href="" class="social-link">
-                    <svg class="social-icon" width="20" height="20">
-                      <use href="./imeges/icons.svg#icon-facebook-1-1"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-item">
-                  <a href="" class="social-link">
-                    <svg class="social-icon" width="20" height="20">
-                      <use href="./imeges/icons.svg#icon-linkedin-1-1"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
+              <div class="team-kart">
+                <h3 class="title team-list-content">Игорь Демьяненко</h3>
+                <p class="paragraph team-list-content">Product Designer</p>
+                <ul class="social-list list">
+                  <li class="social-item">
+                    <a href="" class="social-link">
+                      <svg class="social-icon" width="20" height="20">
+                        <use href="./imeges/icons.svg#icon-instagram-2-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a href="" class="social-link">
+                      <svg class="social-icon" width="20" height="20">
+                        <use href="./imeges/icons.svg#icon-twitter-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a href="" class="social-link">
+                      <svg class="social-icon" width="20" height="20">
+                        <use href="./imeges/icons.svg#icon-facebook-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a href="" class="social-link">
+                      <svg class="social-icon" width="20" height="20">
+                        <use href="./imeges/icons.svg#icon-linkedin-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </li>
-          
 
-             
             <li class="team-item">
               <img
                 src="./imeges/sect3-2.jpg"
                 alt="Фото Ольги Репиной"
                 width="270"
                 class="team-img"
-                    />
-            <div class=" team-kart">
-              <h3 class="title team-list-content">Ольга Репина</h3>
-              <p class="paragraph team-list-content">Frontend Developer</p>
-              <ul class="social-list list">
-                <li class="social-item">
-                  <a href="" class="social-link">
-                    <svg class="social-icon" width="20" height="20">
-                      <use href="./imeges/icons.svg#icon-instagram-2-1"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-item">
-                  <a href="" class="social-link">
-                    <svg class="social-icon" width="20" height="20">
-                      <use href="./imeges/icons.svg#icon-twitter-1-1"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-item">
-                  <a href="" class="social-link">
-                    <svg class="social-icon" width="20" height="20">
-                      <use href="./imeges/icons.svg#icon-facebook-1-1"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-item">
-                  <a href="" class="social-link">
-                    <svg class="social-icon" width="20" height="20">
-                      <use href="./imeges/icons.svg#icon-linkedin-1-1"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-                </div>
+              />
+              <div class="team-kart">
+                <h3 class="title team-list-content">Ольга Репина</h3>
+                <p class="paragraph team-list-content">Frontend Developer</p>
+                <ul class="social-list list">
+                  <li class="social-item">
+                    <a href="" class="social-link">
+                      <svg class="social-icon" width="20" height="20">
+                        <use href="./imeges/icons.svg#icon-instagram-2-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a href="" class="social-link">
+                      <svg class="social-icon" width="20" height="20">
+                        <use href="./imeges/icons.svg#icon-twitter-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a href="" class="social-link">
+                      <svg class="social-icon" width="20" height="20">
+                        <use href="./imeges/icons.svg#icon-facebook-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a href="" class="social-link">
+                      <svg class="social-icon" width="20" height="20">
+                        <use href="./imeges/icons.svg#icon-linkedin-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </li>
-          
 
-             
             <li class="team-item">
               <img
                 src="./imeges/sect3-3.jpg"
@@ -258,43 +265,41 @@
                 width="270"
                 class="team-img"
               />
-            <div class=" team-kart">
-              <h3 class="title team-list-content">Николай Тарасов</h3>
-              <p class="paragraph team-list-content">Marketing</p>
-              <ul class="social-list list">
-                <li class="social-item">
-                  <a href="" class="social-link">
-                    <svg class="social-icon" width="20" height="20">
-                      <use href="./imeges/icons.svg#icon-instagram-2-1"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-item">
-                  <a href="" class="social-link">
-                    <svg class="social-icon" width="20" height="20">
-                      <use href="./imeges/icons.svg#icon-twitter-1-1"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-item">
-                  <a href="" class="social-link">
-                    <svg class="social-icon" width="20" height="20">
-                      <use href="./imeges/icons.svg#icon-facebook-1-1"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-item">
-                  <a href="" class="social-link">
-                    <svg class="social-icon" width="20" height="20">
-                      <use href="./imeges/icons.svg#icon-linkedin-1-1"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
+              <div class="team-kart">
+                <h3 class="title team-list-content">Николай Тарасов</h3>
+                <p class="paragraph team-list-content">Marketing</p>
+                <ul class="social-list list">
+                  <li class="social-item">
+                    <a href="" class="social-link">
+                      <svg class="social-icon" width="20" height="20">
+                        <use href="./imeges/icons.svg#icon-instagram-2-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a href="" class="social-link">
+                      <svg class="social-icon" width="20" height="20">
+                        <use href="./imeges/icons.svg#icon-twitter-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a href="" class="social-link">
+                      <svg class="social-icon" width="20" height="20">
+                        <use href="./imeges/icons.svg#icon-facebook-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a href="" class="social-link">
+                      <svg class="social-icon" width="20" height="20">
+                        <use href="./imeges/icons.svg#icon-linkedin-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </li>
-          
-
 
             <li class="team-item">
               <img
@@ -303,41 +308,40 @@
                 width="270"
                 class="team-img"
               />
-             <div class=" team-kart">
-              <h3 class="title team-list-content">Михаил Ермаков</h3>
-              <p class="paragraph team-list-content">UI Designer</p>
-              <ul class="social-list list">
-                <li class="social-item">
-                  <a href="" class="social-link">
-                    <svg class="social-icon" width="20" height="20">
-                      <use href="./imeges/icons.svg#icon-instagram-2-1"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-item">
-                  <a href="" class="social-link">
-                    <svg class="social-icon" width="20" height="20">
-                      <use href="./imeges/icons.svg#icon-twitter-1-1"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-item">
-                  <a href="" class="social-link">
-                    <svg class="social-icon" width="20" height="20">
-                      <use href="./imeges/icons.svg#icon-facebook-1-1"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-item">
-                  <a href="" class="social-link">
-                    <svg class="social-icon" width="20" height="20">
-                      <use href="./imeges/icons.svg#icon-linkedin-1-1"></use>
-                    </svg>
-                  </a>
-                </div>
-                </li>
-              
-              </ul>
+              <div class="team-kart">
+                <h3 class="title team-list-content">Михаил Ермаков</h3>
+                <p class="paragraph team-list-content">UI Designer</p>
+                <ul class="social-list list">
+                  <li class="social-item">
+                    <a href="" class="social-link">
+                      <svg class="social-icon" width="20" height="20">
+                        <use href="./imeges/icons.svg#icon-instagram-2-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a href="" class="social-link">
+                      <svg class="social-icon" width="20" height="20">
+                        <use href="./imeges/icons.svg#icon-twitter-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a href="" class="social-link">
+                      <svg class="social-icon" width="20" height="20">
+                        <use href="./imeges/icons.svg#icon-facebook-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a href="" class="social-link">
+                      <svg class="social-icon" width="20" height="20">
+                        <use href="./imeges/icons.svg#icon-linkedin-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </li>
           </ul>
         </div>
@@ -459,5 +463,16 @@
         </div>
       </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-btn-close" data-modal-close>
+          <svg width="11" height="11">
+            <use href="./imeges/icons.svg#icon-x-1"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
