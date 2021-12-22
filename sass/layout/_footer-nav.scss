@@ -1,0 +1,31 @@
+.footer {
+  background: var(--background);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-nav a {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--hover-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+.footer-nav .adress {
+  color: var(--accent-color);
+}
+.footer-nav .contacts {
+  color: var(--contacs-color);
+}
+
+.footer-nav-margin {
+  margin-bottom: 9px;
+}
+
+.footer-pdng {
+  display: flex;
+  align-items: baseline;
+}
