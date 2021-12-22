@@ -387,7 +387,8 @@ a {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.auto-list-item:hover, .auto-list-item:focus {
+.auto-list-item a:hover,
+.auto-list-item a:focus {
   color: var(--hover-color);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
