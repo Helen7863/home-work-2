@@ -1,13 +1,13 @@
-.social-list {
+.social__list {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.social-item + .social-item {
+.social__item + .social__item {
   margin-left: 10px;
 }
-.social-link {
+.social__link {
   width: 44px;
   height: 44px;
   background-color: var(--accent-color);
@@ -25,6 +25,6 @@
   }
 }
 
-.social-icon {
+.social__icon {
   fill: currentColor;
 }

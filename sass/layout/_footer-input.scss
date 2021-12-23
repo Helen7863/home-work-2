@@ -1,9 +1,9 @@
-.footer-input {
+.footer__input {
   margin-left: 93px;
   position: relative;
 }
 
-.footer-input-email {
+.footer-input__email {
   position: absolute;
   width: 358px;
   height: 50px;
@@ -15,7 +15,7 @@
   padding-left: 16px;
 }
 
-.footer-btn {
+.footer-input__btn {
   position: absolute;
   width: 200px;
   height: 50px;
@@ -35,7 +35,7 @@
   color: var(--accent-color);
 }
 
-.footer-email-icon {
+.footer-input__icon {
   display: flex;
   align-items: center;
   justify-content: center;

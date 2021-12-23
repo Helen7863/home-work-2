@@ -3,7 +3,7 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer-nav a {
+.footer__nav a {
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
@@ -14,18 +14,22 @@
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
-.footer-nav .adress {
+.footer__nav .adress {
   color: var(--accent-color);
 }
-.footer-nav .contacts {
+.footer__nav .contacts {
   color: var(--contacs-color);
 }
 
-.footer-nav-margin {
+.footer-nav__margin {
   margin-bottom: 9px;
 }
 
-.footer-pdng {
+.footer__pdng {
   display: flex;
   align-items: baseline;
+}
+
+.logo-footer {
+  color: var(--accent-color);
 }

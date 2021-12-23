@@ -1,10 +1,10 @@
-.section-team {
+.team__section {
   background-color: #f5f4fa;
 }
 .container-section {
   margin-top: 0px;
 }
-.team-list {
+.team__list {
   display: flex;
   align-items: center;
   margin-left: -30px;
@@ -21,11 +21,7 @@
   }
 }
 
-.team-kart {
-  padding-bottom: 30px;
-  padding-top: 30px;
-}
-.team-item {
+.team__item {
   width: 270px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -34,6 +30,11 @@
   background-color: var(--accent-color);
 }
 
-.team-list-content {
+.team__kart {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.team__content {
   text-align: center;
 }
